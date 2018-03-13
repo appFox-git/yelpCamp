@@ -36,3 +36,8 @@
    background-color: grey;
  }
  
+#backButton {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 40px;
+}
