@@ -13,6 +13,11 @@ body {
     color: #fff;
 }
 
+.alert {
+    text-align: center;
+    font-size: 1.25em;
+}
+
 .slideshow {
     position: fixed;
     width: 100%;
