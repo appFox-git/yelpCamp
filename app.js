@@ -20,9 +20,6 @@ var commentRoutes    = require("./routes/comments"),
 
 var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v12"
 mongoose.connect(url, {useMongoClient: true});
-// mongoose.connect("mongodb://YelpCampApp:Yelp2018@ds111598.mlab.com:11598/yelp_camp_aws", {useMongoClient: true});
-// mlab online db: "mongodb://YelpCampApp:Yelp2018@ds111598.mlab.com:11598/yelp_camp_aws"
-// local db: "mongodb://localhost/yelp_camp_v12"
 
 
 mongoose.Promise = global.Promise;
